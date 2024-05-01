@@ -323,7 +323,7 @@
 			},
 			{
 				"name": "prop65ChemicalPresent",
-				"name": "Yes"
+				"value": "Yes"
 			},
 			{
 				"name": "dropShipEligible",

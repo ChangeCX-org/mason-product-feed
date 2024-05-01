@@ -52,8 +52,9 @@ export const createProductAtrributeJsonArray = (pdpSeoValue, productTypeValue, p
       const dataType = instance?.dataType;
       let propertyValue;
       const differentPropertyName =  AttributeHelper.checkAndReturnDifferentPropertyFeedName(propertyName);
+      
       if (differentPropertyName) {
-        propertyValue =  AttributeHelper.retriveValueFromFeedAttributeforSpecificProperty(productAttributeFromFeedItemJson, differentPropertyName);
+        propertyValue =  AttributeHelper.retriveValueFromFeedAttributeforSpecificProperty(productAttributeFromFeedItemJson, differentPropertyName, dataType);
       } else if (propertyName === CONSTANTS.PDPSEO_PROEPRTY_NAME) {
         propertyValue =  pdpSeoValue;
       } else {
@@ -87,7 +88,7 @@ export const createSkuAtrributeJsonArray = (productTypeValue, attributePayloadJs
 
       const differentPropertyName =  AttributeHelper.checkAndReturnDifferentPropertyFeedName(propertyName);
       if (differentPropertyName) {
-        propertyValue =  AttributeHelper.retriveValueFromFeedAttributeforSpecificProperty(variantItem.variantAttributes, differentPropertyName);
+        propertyValue =  AttributeHelper.retriveValueFromFeedAttributeforSpecificProperty(variantItem.variantAttributes, differentPropertyName, dataType);
       } else {
         propertyValue =  AttributeHelper.retriveSkuAttributeValueFromJson(variantItem.variantAttributes, propertyName, dataType);
       }

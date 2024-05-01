@@ -117,7 +117,7 @@ const checkAndPopulateProductAttributeValueIinActionJsonArray = (actionArray, pr
             let attributeValueFromProductFeedItem;
             const differentPropertyName =  AttributeHelper.checkAndReturnDifferentPropertyFeedName(propertyName);
             if (differentPropertyName) {
-                attributeValueFromProductFeedItem =  AttributeHelper.retriveValueFromFeedAttributeforSpecificProperty(productAttributesFromFeed, differentPropertyName);
+                attributeValueFromProductFeedItem =  AttributeHelper.retriveValueFromFeedAttributeforSpecificProperty(productAttributesFromFeed, differentPropertyName, dataType);
             } else if (propertyName === CONSTANTS.PDPSEO_PROEPRTY_NAME) {
                 attributeValueFromProductFeedItem =  productFeedItemJson?.pdpSeo;
             } else {
@@ -162,7 +162,7 @@ const checkAndPopulateVariantAttributeValueInActionJsonArray = (actionArray, pro
                 const differentPropertyName =  AttributeHelper.checkAndReturnDifferentPropertyFeedName(propertyName);
 
                 if (differentPropertyName) {
-                    attributeValueFromVariantFeedItem =  AttributeHelper.retriveValueFromFeedAttributeforSpecificProperty(feedVariantItem?.variantAttributes, differentPropertyName);
+                    attributeValueFromVariantFeedItem =  AttributeHelper.retriveValueFromFeedAttributeforSpecificProperty(feedVariantItem?.variantAttributes, differentPropertyName, dataType);
                 }else {
                     attributeValueFromVariantFeedItem =  AttributeHelper.retriveSkuAttributeValueFromJson(feedVariantItem?.variantAttributes, propertyName, dataType);
                 }

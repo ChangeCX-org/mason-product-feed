@@ -41,7 +41,7 @@ const commonProductAttributes = [
     new ProductAttribute("countryAvail", "String"),
     new ProductAttribute("signatureRequired", "Boolean"),
     new ProductAttribute("allowAkHIUsterrShip", "Boolean"),
-    // new ProductAttribute("apoFpoShip", "Boolean"),
+    new ProductAttribute("apoFpoShip", "Boolean"),
     new ProductAttribute("allowExpressShip", "Boolean"),
     new ProductAttribute("poBoxAvail", "Boolean"),
     new ProductAttribute("allowPriorityShip", "Boolean"),

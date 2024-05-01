@@ -21,4 +21,10 @@ export const ORIGIN_PROPERTY_FEED_NAME = "origin";
 export const APO_FPO_SHIP_PROPERTY_FEED_NAME = "apoFpoAvail";
 export const ABWSKU_PROPERTY_FEED_NAME = "legacyVSKU";
 export const VARIANt_COST_PROEPRTY_FEED_NAME = "map";
+export const ALLOW_ALHIUSTERR_SHIP_PROPERTY_NAME = "allowAkHIUsterrShip";
+export const ALLOW_ALHIUSTERR_SHIP_PROPERTY_FEED_NAME = "akhiTerritoriesAvail";
+export const ALLOW_EXPRESS_SHIP_PROPERTY_NAME = "allowExpressShip";
+export const ALLOW_EXPRESS_SHIP_PROPERTY_FEED_NAME = "expressShipAvail";
+export const ALLOW_PRIORITY_SHIP_PROPERTY_NAME = "allowPriorityShip";
+export const ALLOW_PRIORITY_SHIP_PROPERTY_FEED_NAME = "priorityShipAvail";
 

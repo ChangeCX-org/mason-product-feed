@@ -12,7 +12,10 @@ export class AttributeHelper {
         [CONSTANTS.ORIGIN_PROPERTY_NAME, CONSTANTS.ORIGIN_PROPERTY_FEED_NAME], 
         [CONSTANTS.APO_FPO_SHIP_PROPERTY_NAME, CONSTANTS.APO_FPO_SHIP_PROPERTY_FEED_NAME],
         [CONSTANTS.ABWSKU_PROPERTY_NAME, CONSTANTS.ABWSKU_PROPERTY_FEED_NAME],
-        [CONSTANTS.VARIANt_COST_PROEPRTY_NAME, CONSTANTS.VARIANt_COST_PROEPRTY_FEED_NAME]
+        [CONSTANTS.VARIANt_COST_PROEPRTY_NAME, CONSTANTS.VARIANt_COST_PROEPRTY_FEED_NAME],
+        [CONSTANTS.ALLOW_ALHIUSTERR_SHIP_PROPERTY_NAME, CONSTANTS.ALLOW_ALHIUSTERR_SHIP_PROPERTY_FEED_NAME],
+        [CONSTANTS.ALLOW_EXPRESS_SHIP_PROPERTY_NAME, CONSTANTS.ALLOW_EXPRESS_SHIP_PROPERTY_FEED_NAME],
+        [CONSTANTS.ALLOW_PRIORITY_SHIP_PROPERTY_NAME, CONSTANTS.ALLOW_PRIORITY_SHIP_PROPERTY_FEED_NAME]
     ]);
 
     static createProductSchemaForType =  (productType) =>  {
@@ -90,15 +93,6 @@ export class AttributeHelper {
                 break;
             }
         }
-        // variantAttributeFromFeedItemJson.forEach(instance => {
-        //     if ( propertyName === instance?.name ) {
-        //         if (CONSTANTS.BOOLEAN_DATA_TYPE === dataType ) {
-        //             propertyValueFromJson = this.returnBooleanPropertyValue(instance.value);
-        //         }else {
-        //             propertyValueFromJson = instance.value;
-        //         }
-        //     }
-        // });
         return propertyValueFromJson
     };
 
@@ -136,11 +130,17 @@ export class AttributeHelper {
     };
 
     /** This method is written for those attribute properties whose property name are different from those present in the feed */
-    static retriveValueFromFeedAttributeforSpecificProperty = (attributeFromFeedItemJson, attributePropertyNameFromFeedItem) => {
+    static retriveValueFromFeedAttributeforSpecificProperty = (attributeFromFeedItemJson, attributePropertyNameFromFeedItem, dataType) => {
         let propertyValueFromJson;
         for (let i = 0; i < attributeFromFeedItemJson?.length ; i++) {
             if ( attributePropertyNameFromFeedItem === attributeFromFeedItemJson[i]?.name ) {
-                propertyValueFromJson = attributeFromFeedItemJson[i].value;
+                if (attributeFromFeedItemJson[i].value ){
+                    if (CONSTANTS.BOOLEAN_DATA_TYPE === dataType ) {
+                        propertyValueFromJson = this.returnBooleanPropertyValue(attributeFromFeedItemJson[i].value);
+                    }else {
+                        propertyValueFromJson = attributeFromFeedItemJson[i].value;
+                    }
+                }
                 break;
             }
         }
