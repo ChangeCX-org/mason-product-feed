@@ -1,0 +1,399 @@
+[
+	{
+		"key": "1036437-3",
+		"name": "Travelers Club 20\" Rolling Tote",
+		"pdpSeo": "travelers-club-20-rolling-tote updated",
+		"productType": "luggage",
+		"description": {
+			"en-us": "<ul><li>This 14.5\"Lx7.5\"Dx20\"H rolling tote has a playful printed polyester fabric exterior</li><li>Features locking telescopic handle, in-line blade wheels and side mesh accessory pockets</li></ul>"
+		},
+		"productAttributes": [
+			{
+				"name": "visibleOnWeb",
+				"value": true
+			},
+			{
+				"name": "akhiTerritoriesAvail",
+				"value": "true"
+			},
+			{
+				"name": "apoFpoAvail",
+				"value": "true"
+			},
+			{
+				"name": "brandName",
+				"value": "Travelers Club"
+			},
+			{
+				"name": "brandParent",
+				"value": "Travelers Club"
+			},
+			{
+				"name": "class",
+				"value": "Luggage"
+			},
+			{
+				"name": "colorFirst",
+				"value": "Blue"
+			},
+			{
+				"name": "stiboDSku",
+				"value": "1036437"
+			},
+			{
+				"name": "department",
+				"value": "Home"
+			},
+			{
+				"name": "expressShipAvail",
+				"value": "true"
+			},
+			{
+				"name": "forcedShippingMethod",
+				"value": "false"
+			},
+			{
+				"name": "gender",
+				"value": "Unisex"
+			},
+			{
+				"name": "abwDescription",
+				"value": "20\" FASHION ROLLING TOTE"
+			},
+			{
+				"name": "abwStyle",
+				"value": "406672"
+			},
+			{
+				"name": "origin",
+				"value": "China"
+			},
+			{
+				"name": "color",
+				"value": "Blue"
+			},
+			{
+				"name": "personalizeMandatory",
+				"value": "false"
+			},
+			{
+				"name": "personalizeOption",
+				"value": "false"
+			},
+			{
+				"name": "poBoxAvail",
+				"value": "true"
+			},
+			{
+				"name": "primaryImageDate",
+				"value": "2014-01-01"
+			},
+			{
+				"name": "priorityShipAvail",
+				"value": "true"
+			},
+			{
+				"name": "productLine",
+				"value": "Tangible Personal Propert"
+			},
+			{
+				"name": "promotionsAllowed",
+				"value": "true"
+			},
+			{
+				"name": "sellEndDate",
+				"value": "9999-12-31"
+			},
+			{
+				"name": "map",
+				"value": {
+					"type": "centPrecision",
+					"currencyCode": "USD",
+					"centAmount": 1290,
+					"fractionDigits": 2
+				}
+			},
+			{
+				"name": "subClass",
+				"value": "Travel Totes"
+			},
+			{
+				"name": "vendorPart",
+				"value": "TCL-14020-420"
+			},
+			{
+				"name": "warrantyEligible",
+				"value": "true"
+			},
+			{
+				"name": "stepName",
+				"value": "Travelers Club-Fashion Rolling Tote-Blue"
+			},
+			{
+				"categories": [
+					"cat650043",
+					"cat650045",
+					"c140401",
+					"c160401",
+					"c161001",
+					"c243501",
+					"c342705"
+				]
+			},
+			{
+				"name": "colorFamily",
+				"value": "Blue"
+			},
+			{
+				"name": "material",
+				"value": "Polyester"
+			},
+			{
+				"name": "productSiteData",
+				"value": [
+					[
+						{
+							"name": "siteId",
+							"value": "ZD"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "ZA"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "ZF"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "AW"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "SM"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "FG"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "ZB"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "ZY"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "MY"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "MQ"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "BA"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					],
+					[
+						{
+							"name": "siteId",
+							"value": "FB"
+						},
+						{
+							"name": "grossSalesRank",
+							"value": "0.000000000000000"
+						},
+						{
+							"name": "netSalesRank",
+							"value": "0.000000000000000"
+						}
+					]
+				]
+			},
+			{
+				"name": "prop65ChemicalPresent",
+				"name": "Yes"
+			},
+			{
+				"name": "dropShipEligible",
+				"value": "No"
+			}
+		],
+		"variants": [
+			{
+				"key": "1036437-3-1",
+				"variantAttributes": [
+					{
+						"name": "legacyVSKU",
+						"value": "406672BLU"
+					},
+					{
+						"name": "erpStatus",
+						"value": "DF"
+					},
+					{
+						"name": "fulfillmentMethod",
+						"value": "Internal"
+					},
+					{
+						"name": "prop65ChemicalPresent",
+						"name": "Yes"
+					},
+					{
+						"name": "shippingCategoryCode",
+						"value": "Z"
+					},
+					{
+						"name": "upc",
+						"value": "015272750195"
+					},
+					{
+						"name": "map",
+						"value": {
+							"type": "centPrecision",
+							"currencyCode": "USD",
+							"centAmount": 1290,
+							"fractionDigits": 2
+						}
+					},
+					{
+						"variantSelector": [
+							{
+								"name": "variantSelectorLabel1",
+								"value": "Color"
+							},
+							{
+								"name": "variantSelectorLabel2",
+								"value": "Size"
+							},
+							{
+								"name": "variantSelectorValue1",
+								"value": "Blue"
+							},
+							{
+								"name": "variantSelectorValue2",
+								"value": "No Size"
+							},
+							{
+								"name": "dimensionSequence",
+								"value": "99999"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+	
+]

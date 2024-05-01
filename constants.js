@@ -1,0 +1,24 @@
+export const PRODUCT_TYPE = "product-type";
+export const PDPSEO_PROEPRTY_NAME = "pdpSeo";
+export const MAP_PROEPRTY_NAME = "map";
+export const ITEM_COST_PROEPRTY_NAME = "itemCost";
+export const BOOLEAN_DATA_TYPE = "Boolean";
+export const STRING_DATA_TYPE = "String";
+export const PRICE_DATA_TYPE = "Price";
+export const INTEGER_DATA_TYPE = "Integer";
+export const ARRAY_DATA_TYPE = "Array";
+export const CLASS_PROPERTY_NAME = "className";
+export const DEPARTMENT_PROPERTY_NAME = "departmentName";
+export const SUB_CLASS_PROPERTY_NAME = "subClassName";
+export const ORIGIN_PROPERTY_NAME = "originName";
+export const APO_FPO_SHIP_PROPERTY_NAME = "apoFpoShip";
+export const ABWSKU_PROPERTY_NAME = "abwSku";
+export const VARIANt_COST_PROEPRTY_NAME = "variantCost";
+export const CLASS_PROPERTY_FEED_NAME = "class";
+export const DEPARTMENT_PROPERTY_FEED_NAME = "department";
+export const SUB_CLASS_PROPERTY_FEED_NAME = "subClass";
+export const ORIGIN_PROPERTY_FEED_NAME = "origin";
+export const APO_FPO_SHIP_PROPERTY_FEED_NAME = "apoFpoAvail";
+export const ABWSKU_PROPERTY_FEED_NAME = "legacyVSKU";
+export const VARIANt_COST_PROEPRTY_FEED_NAME = "map";
+
