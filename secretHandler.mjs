@@ -6,7 +6,7 @@ import {
 // import dotenv from "dotenv";
 // dotenv.config();
 
-export const customerExportSecrets = async () => {
+export const productExportSecrets = async () => {
   const client = new SecretsManagerClient({
     region: "us-east-1"
   });

@@ -7,8 +7,6 @@ var credentials = new AWS.SharedIniFileCredentials({profile: 'work-account'});
 AWS.config.credentials = credentials;
 //Comment this to work on Lambda
 const s3 = new AWS.S3({
-  accessKeyId: credentials.aws_access_key_id,
-  secretAccessKey: credentials.aws_secret_access_key,
   Bucket: process.env.AWS_BUCKET,
 });
 
@@ -24,7 +22,9 @@ export const s3ReadFolder = async () => {
   return new Promise((resolve, reject) => {
     s3.listObjectsV2(listObjectParams, (err, data) => {
       if (!err) {
-        resolve(data?.Contents);
+        resolve(data?.Contents.filter(function(file){
+          return (file.Key.indexOf('.json') > 0);
+        }));
       } else {
         console.log("Error in reading folder", err);
         reject(err);
@@ -54,22 +54,31 @@ export const s3ReadObject = async (content) => {
 };
 
 export const copyFile = async (content) => {
-  console.log("Copying Object :", content);
+
   const keyArray = content?.Key.split("/");
+  const keyValue = keyArray[1] + "_" + new Date().toISOString();
+
   const s3Params = {
     Bucket: process.env.AWS_BUCKET,
     CopySource: `${process.env.AWS_BUCKET}/${content?.Key}`,
-    Key: `Archive/${keyArray[1]}`,
+    Key: `Processed/${keyValue}`,
   };
+  
   return s3.copyObject(s3Params).promise();
 };
 
 export const deleteFile = async (content) => {
-  console.log("Deleting Object ", content.Key);
+
+  const s3Params = {
+    Bucket: process.env.AWS_BUCKET,
+  };
+
+  //const keyArray = content?.Key.split("/");
   return s3
     .deleteObject({
       Bucket: process.env.AWS_BUCKET,
-      Key: content?.Key,
+      Key: `${content?.Key}`,
     })
     .promise();
 };
+
